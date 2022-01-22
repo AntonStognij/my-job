@@ -1,0 +1,56 @@
+.footer {
+    .container {
+        padding-bottom: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+.footer-saze {
+    width: 20%;
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 110px;
+
+    &:last-child {
+        padding-right: 0;
+    }
+
+    h3 {
+        text-align: left;
+        padding-bottom: 40px;
+    }
+
+    address {
+        font-style: normal;
+    }
+}
+
+.footer {
+    padding-bottom: 80px;
+
+    .flex {
+        align-items: stretch;
+
+    }
+}
+
+footer p {
+    text-align: left;
+    font-size: 12px;
+}
+
+.social {
+    display: flex;
+    fill: #101010;
+
+    li {
+        margin-right: 10px;
+        transition: 0.2s linear;
+
+        :hover {
+            fill: $color-hover;
+        }
+    }
+}

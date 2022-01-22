@@ -1,0 +1,18 @@
+%btn {
+    width: 100px;
+    height: 40px;
+    border: 1px $color-dark-background solid;
+    background-color: rgba(255, 253, 250, .1);
+    order: 1;
+    padding: 0;
+    color: $color-dark-background;
+    text-transform: uppercase;
+    transition: 0.2s linear;
+    border-radius: 6px;
+    font-size: 14px;
+
+    &:hover {
+        background-color: $color-dark-background;
+        color: $color-hover;
+    }
+}

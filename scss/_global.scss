@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font: 24px/1.5 'Lato', 'sans-serif';
+    color: #000000;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+//настройки чтобы прижать footer
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+    color: $color-light-background;
+    transition: 0.2s linear;
+    font-size: 12px;
+
+    &:hover {
+        color: $color-hover;
+    }
+}
+
+
+
+h1 {
+    font: bold 72px/1.2 'Lato', 'sans-serif';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 700 36px/1.2 'Lato', 'sans-serif';
+    text-align: center;
+}
+
+h3 {
+    font: 700 18px/1.2 'Lato', 'sans-serif';
+    text-align: center;
+}
+
+p {
+
+    font: 700 24px/1.5 'Lato', 'sans-serif';
+    text-align: center;
+
+}
+
+li {
+    list-style-type: none;
+    height: auto;
+
+}
+
+ul {
+    padding-left: 0;
+}
